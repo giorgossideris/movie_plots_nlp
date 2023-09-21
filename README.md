@@ -10,6 +10,9 @@ Additional packages required for the project to run are:
 * [scikit-learn](https://scikit-learn.org/stable/)
 * [NumPy](https://numpy.org/)
 * [matplotlib](https://matplotlib.org/)
+* [SciPy](https://scipy.org/)
+* [seaborn](https://seaborn.pydata.org/)
+* [nltk](https://www.nltk.org/)
 
 All the packages above can be installed using the `pip install` command-line command.
 
@@ -20,6 +23,7 @@ All the packages above can be installed using the `pip install` command-line com
 ## Contents
 ### Notebooks
 * <code>data_preparation</code>: includes the preparation of data for the various Machine Learning tasks.
+* <code>genre_classification</code>: this task focuses on performing classification of movies into genres based on their plots, with a specific emphasis on the drama and comedy categories.
 
 ### Data *(included into the <code>./data</code> folder)*
 * <code>wiki_movie_plots_deduped.csv</code>: the initial data as were taken from Kaggle.
@@ -29,3 +33,4 @@ All the packages above can be installed using the `pip install` command-line com
 * <code>genre_encoding.pickle</code>: the encoding of *genre ids (int)* to *genre names (string)*.
 * <code>genres_encoded.npy</code>: a numpy array including the encoding of the genres (in the same order as the corresponding plots).
 * <code>plots.npy</code>: a numpy array including the encoding of the genres.
+* <code>cleaned_plots.npy</code>: the plots of the <code>plots.npy</code> file after cleaning was applied.
