@@ -16,7 +16,6 @@ Additional packages required for the project to run are:
 * [spaCy](https://spacy.io/) (also the <code>en_core_web_md</code> model of spaCy must be installed by running <code>python -m spacy download en_core_web_sm</code>)
 
 All the packages above can be installed using the `pip install` command-line command.
-* 
 
 ## Data
 * The data were obtained by [Kaggle](https://www.kaggle.com/) and the [Wikipedia Movie Plots](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots) dataset specifically.
