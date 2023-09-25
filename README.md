@@ -14,6 +14,7 @@ Additional packages required for the project to run are:
 * [seaborn](https://seaborn.pydata.org/)
 * [nltk](https://www.nltk.org/)
 * [spaCy](https://spacy.io/) (also the <code>en_core_web_md</code> model of spaCy must be installed by running <code>python -m spacy download en_core_web_sm</code>)
+* [imblearn](https://imbalanced-learn.org/stable/)
 
 All the packages above can be installed using the `pip install` command-line command.
 
