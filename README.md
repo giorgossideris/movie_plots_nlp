@@ -16,6 +16,7 @@ Additional packages required for the project to run are:
 * [spaCy](https://spacy.io/) (also the <code>en_core_web_md</code> model of spaCy must be installed by running <code>python -m spacy download en_core_web_sm</code>)
 * [imblearn](https://imbalanced-learn.org/stable/)
 * [xgboost](https://xgboost.readthedocs.io/en/stable/)
+* [Tensorflow](https://www.tensorflow.org/)
 
 All the packages above can be installed using the `pip install` command-line command.
 
